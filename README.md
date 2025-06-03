@@ -10,7 +10,8 @@ Description: Fetch all available books in the system.
 
 Response: ✔ 200 OK – Returns list of all books
 
-![Get books](https://github.com/user-attachments/assets/6392d407-404c-4298-9088-b83390385fa2)
+![Get books](https://github.com/user-attachments/assets/26731a92-444c-43a4-8373-9cc9f2b107b6)
+
 
 
 📝 GET /books/{id}
@@ -19,7 +20,8 @@ Description: Fetch a specific book by its ID.
 
 Response: ✔ 200 OK – Book found
 
-![Get a single book by id](https://github.com/user-attachments/assets/f8a156aa-51f0-4875-bcac-34e1671e5dc5)
+![Get a single book by id](https://github.com/user-attachments/assets/b7909b41-5932-4d52-aa49-acd278b183d8)
+
 
 📝 POST /books
 
@@ -41,7 +43,8 @@ Response:
     "message": "Book added successfully!"
 }
 
-![Add new book](https://github.com/user-attachments/assets/c49e937b-8b53-4e6b-8ed8-f173f7ad1c85)
+![Add new book](https://github.com/user-attachments/assets/ae099a78-9f51-467a-9521-73a1a3c333ef)
+
 
 📝 PUT /books/{id}
 
@@ -62,7 +65,8 @@ Request Body Example:
 
 Response: ✔ 200 OK – Book updated
 
-![Update a book](https://github.com/user-attachments/assets/161e8886-9612-442f-bce2-0983682583f5)
+![Update a book](https://github.com/user-attachments/assets/b030164f-db6e-4cb0-8ede-e382db372197)
+
 
 ❌ DELETE /books/{id}
 
@@ -72,7 +76,8 @@ Path Variable: id – Book ID
 
 Response: ✔ 200 OK – "Book deleted successfully!"
 
-![Book delete](https://github.com/user-attachments/assets/8bfa6cf9-2712-42e1-9110-65b60e35c815)
+![Book delete](https://github.com/user-attachments/assets/7bee41d9-d528-463d-b15b-4ec8fb8e5606)
+
 
 
 ✍️ Author APIs
@@ -83,7 +88,8 @@ Description: Fetch all authors available in the system.
 
 Response: ✔ 200 OK – Returns list of all authors
 
-![List author](https://github.com/user-attachments/assets/9ab22806-e463-4962-ac79-930b15d4be82)
+![List author](https://github.com/user-attachments/assets/2e46fc75-9673-4735-b02f-afac0a8ac8db)
+
 
 
 📝 POST /authors
@@ -99,4 +105,5 @@ Request Body Example:
 
 Response: ✔ 201 Created – Author added successfully
 
-![Add author](https://github.com/user-attachments/assets/0bf5ad1b-a20b-48f1-8276-0b3c311168e2)
+![Add author](https://github.com/user-attachments/assets/9af781a1-d147-47fe-8479-aee75aa2a249)
+
