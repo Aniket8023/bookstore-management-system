@@ -30,19 +30,27 @@ Description: Add a new book to the bookstore.
 Request Body Example:
 
 {
+
     "title": "Spring Boot Guide",
+    
     "description": "Complete guide on Spring Boot",
+    
     "price": 599.0,
+    
     "publishedDate": "2025-06-01",
+    
     "author": {
         "id": 1
     }
+    
 }
 
 Response:
 
 {
+
     "message": "Book added successfully!"
+    
 }
 
 ![Add new book](https://github.com/user-attachments/assets/ae099a78-9f51-467a-9521-73a1a3c333ef)
@@ -57,13 +65,19 @@ Path Variable: id – Book ID
 Request Body Example:
 
 {
+
   "title": "Effective Java - 2nd Edition",
+  
   "description": "Updated edition of Effective Java",
+  
   "price": 500.00,
+  
   "publishedDate": "2018-05-10",
+  
   "author": {
     "id": 2
   }
+  
 }
 
 Response: ✔ 200 OK – Book updated
@@ -102,9 +116,13 @@ Description: Add a new author to the database.
 Request Body Example:
 
 {
+
   "name": "Jhon",
+  
   "bio": "Expert in Microservices and Cloud Computing",
+  
   "dateOfBirth": "1995-08-14"
+  
 }
 
 Response: ✔ 201 Created – Author added successfully
