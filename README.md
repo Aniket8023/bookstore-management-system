@@ -28,6 +28,7 @@ Response: ✔ 200 OK – Book found
 Description: Add a new book to the bookstore.
 
 Request Body Example:
+
 {
     "title": "Spring Boot Guide",
     "description": "Complete guide on Spring Boot",
@@ -39,6 +40,7 @@ Request Body Example:
 }
 
 Response:
+
 {
     "message": "Book added successfully!"
 }
@@ -53,6 +55,7 @@ Description: Update an existing book's details.
 Path Variable: id – Book ID
 
 Request Body Example:
+
 {
   "title": "Effective Java - 2nd Edition",
   "description": "Updated edition of Effective Java",
@@ -97,6 +100,7 @@ Response: ✔ 200 OK – Returns list of all authors
 Description: Add a new author to the database.
 
 Request Body Example:
+
 {
   "name": "Jhon",
   "bio": "Expert in Microservices and Cloud Computing",
