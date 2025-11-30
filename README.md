@@ -8,7 +8,7 @@ A Spring Boot-based bookstore management API that allows users to manage books a
 
 Description: Fetch all available books in the system.
 
-Response: ✔ 200 OK – Returns list of all books
+Response: ✔ 200 OK – Returns list of all books   
 
 ![Get books](https://github.com/user-attachments/assets/26731a92-444c-43a4-8373-9cc9f2b107b6)
 
