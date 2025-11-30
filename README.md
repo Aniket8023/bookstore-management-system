@@ -18,7 +18,7 @@ Response: ✔ 200 OK – Returns list of all books
 
 Description: Fetch a specific book by its ID.
 
-Response: ✔ 200 OK – Book found
+Response: ✔ 200 OK – Book found   
 
 ![Get a single book by id](https://github.com/user-attachments/assets/b7909b41-5932-4d52-aa49-acd278b183d8)
 
